@@ -1,0 +1,18 @@
+Analysis & Synthesis Status : Successful - Sun May 29 16:35:03 2016
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+Revision Name : ConexionAtomNios
+Top-level Entity Name : ConexionAtomNios
+Family : Cyclone IV GX
+Total logic elements : 9,634
+    Total combinational functions : 7,603
+    Dedicated logic registers : 5,553
+Total registers : 5553
+Total pins : 5
+Total virtual pins : 0
+Total memory bits : 1,150,696
+Embedded Multiplier 9-bit elements : 0
+Total GXB Receiver Channel PCS : 1
+Total GXB Receiver Channel PMA : 1
+Total GXB Transmitter Channel PCS : 1
+Total GXB Transmitter Channel PMA : 1
+Total PLLs : 2

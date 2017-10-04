@@ -1,0 +1,20 @@
+16:32:32 **** Build of configuration Nios II for project ConexionHex ****
+make mem_init_generate 
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../ConexionHex_bsp//HAL/inc -I../ConexionHex_bsp/ -I../ConexionHex_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+Info: Building ../ConexionHex_bsp/
+C:/altera_lite/15.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../ConexionHex_bsp/
+[BSP build complete]
+Info: Linking ConexionHex.elf
+nios2-elf-g++  -T'../ConexionHex_bsp//linker.x' -msys-crt0='../ConexionHex_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../ConexionHex_bsp/   -Wl,-Map=ConexionHex.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o ConexionHex.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert ConexionHex.elf --thread_model hal --cpu_name nios2 --qsys true --simulation_enabled false --stderr_dev none --stdin_dev none --stdout_dev none --sopc_system_name de2i_150_pcie --quartus_project_dir "D:/Documentos/Downloads/ConexionAtomNios" --jdi ../..//output_files/ConexionAtomNios.jdi --sopcinfo D:/Documentos/Downloads/ConexionAtomNios/software/ConexionHex_bsp/../../de2i_150_pcie.sopcinfo
+Info: (ConexionHex.elf) 4252 Bytes program size (code + initialized data).
+Info:                   122 KBytes free for stack + heap.
+Post-processing to create mem_init/onchip_memory2_0.hex...
+elf2hex ConexionHex.elf 0x00020000 0x0003ffff --width=64 --little-endian-mem --create-lanes=0 mem_init/onchip_memory2_0.hex
+Post-processing to create mem_init/hdl_sim/onchip_memory2_0.dat...
+elf2dat --infile=ConexionHex.elf --outfile=mem_init/hdl_sim/onchip_memory2_0.dat \
+		--base=0x00020000 --end=0x0003ffff --width=64 \
+		--little-endian-mem --create-lanes=0 
+Post-processing to create mem_init/hdl_sim/onchip_memory2_0.sym...
+nios2-elf-nm -n ConexionHex.elf > mem_init/hdl_sim/onchip_memory2_0.sym

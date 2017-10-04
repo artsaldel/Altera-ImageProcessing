@@ -1,0 +1,240 @@
+# depslib dependency file v1.0
+1462325497 source:/home/arturo/CodeBlocks Projects/Arqui/main.cpp
+	<cv.h>
+	<highgui.h>
+	"dilatacion.h"
+	"Matriz.h"
+
+1411092226 /usr/include/opencv/cv.hpp
+	<cv.h>
+
+1411092226 /usr/include/opencv/cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/video/tracking.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/flann/flann.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/legacy/compat.hpp"
+	"opencv2/core/internal.hpp"
+
+1411092226 /usr/include/opencv/cxcore.hpp
+	<cxcore.h>
+
+1411092226 /usr/include/opencv/cxcore.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+
+1411092226 /usr/include/opencv/highgui.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+	"opencv2/highgui/highgui.hpp"
+
+1462326011 source:/home/arturo/CodeBlocks Projects/Arqui/src/dilatacion.cpp
+	"dilatacion.h"
+	<cv.h>
+	<highgui.h>
+	<iostream>
+	<iomanip>
+	"Matriz.h"
+
+1462317419 /home/arturo/CodeBlocks Projects/Arqui/include/dilatacion.h
+	<cv.h>
+	<highgui.h>
+	"Matriz.h"
+
+1381465978 /home/arturo/CodeBlocks Projects/Arqui/include/Matriz.h
+	<string>
+
+1462255472 source:/home/arturo/CodeBlocks Projects/Arqui/src/Matriz.cpp
+	"Matriz.h"
+	<iostream>
+
+1465088568 source:/home/Arquitectura/Desktop/Arqui/main.cpp
+	<cv.h>
+	<highgui.h>
+	"dilatacion.h"
+	"Matriz.h"
+	<math.h>
+	"app.h"
+	<time.h>
+
+1463005401 /usr/local/include/opencv/cv.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/imgproc_c.h"
+	"opencv2/imgproc/imgproc.hpp"
+	"opencv2/video/tracking.hpp"
+	"opencv2/features2d/features2d.hpp"
+	"opencv2/flann/flann.hpp"
+	"opencv2/calib3d/calib3d.hpp"
+	"opencv2/objdetect/objdetect.hpp"
+	"opencv2/legacy/compat.hpp"
+	"opencv2/core/internal.hpp"
+
+1463005401 /usr/local/include/opencv/highgui.h
+	"opencv2/core/core_c.h"
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+	"opencv2/highgui/highgui.hpp"
+
+1465062087 /home/Arquitectura/Desktop/Arqui/include/dilatacion.h
+	<cv.h>
+	<highgui.h>
+	"Matriz.h"
+	<iostream>
+	<chrono>
+
+1465062122 /home/Arquitectura/Desktop/Arqui/include/Matriz.h
+	<string>
+
+1465089797 source:/home/Arquitectura/Desktop/Arqui/src/dilatacion.cpp
+	"dilatacion.h"
+	<cv.h>
+	<highgui.h>
+	<iostream>
+	<iomanip>
+	"Matriz.h"
+	<thread>
+	"app.h"
+
+1465062476 source:/home/Arquitectura/Desktop/Arqui/src/Matriz.cpp
+	"Matriz.h"
+	<iostream>
+
+1465089797 source:/home/Arquitectura/Desktop/Arqui/src/app.cpp
+	"app.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<memory.h>
+	"PCIE.h"
+	"pcie_c.h"
+	<iostream>
+
+1465072566 /home/Arquitectura/Desktop/Arqui/include/app.h
+
+1465062164 /home/Arquitectura/Desktop/Arqui/include/PCIE.h
+	"TERASIC_PCIE.h"
+
+1465062263 /home/Arquitectura/Desktop/Arqui/include/TERASIC_PCIE.h
+	<stdio.h>
+	<windows.h>
+
+1465062197 /home/Arquitectura/Desktop/Arqui/include/pcie_c.h
+	<stdio.h>
+	<string.h>
+	"PCIE.h"
+	<dlfcn.h>
+
+1465062650 source:/home/Arquitectura/Desktop/Arqui2/main.cpp
+	<cv.h>
+	<highgui.h>
+	"dilatacion.h"
+	"Matriz.h"
+	<math.h>
+	"app.h"
+	<time.h>
+
+1465062087 /home/Arquitectura/Desktop/Arqui2/include/dilatacion.h
+	<cv.h>
+	<highgui.h>
+	"Matriz.h"
+	<iostream>
+	<chrono>
+
+1465062122 /home/Arquitectura/Desktop/Arqui2/include/Matriz.h
+	<string>
+
+1465072566 /home/Arquitectura/Desktop/Arqui2/include/app.h
+
+1465062164 /home/Arquitectura/Desktop/Arqui2/include/PCIE.h
+	"TERASIC_PCIE.h"
+
+1465062263 /home/Arquitectura/Desktop/Arqui2/include/TERASIC_PCIE.h
+	<stdio.h>
+	<windows.h>
+
+1465062197 /home/Arquitectura/Desktop/Arqui2/include/pcie_c.h
+	<stdio.h>
+	<string.h>
+	"PCIE.h"
+	<dlfcn.h>
+
+1465073730 source:/home/Arquitectura/Desktop/Arqui2/src/dilatacion.cpp
+	"dilatacion.h"
+	<cv.h>
+	<highgui.h>
+	<iostream>
+	<iomanip>
+	"Matriz.h"
+	<thread>
+	"app.h"
+
+1465062476 source:/home/Arquitectura/Desktop/Arqui2/src/Matriz.cpp
+	"Matriz.h"
+	<iostream>
+
+1465072684 source:/home/Arquitectura/Desktop/Arqui2/src/app.cpp
+	"app.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<memory.h>
+	"PCIE.h"
+	"pcie_c.h"
+	<iostream>
+
+1465089798 source:/home/arturo/Escritorio/Proyecto II/Proyecto final/Software/src/app.cpp
+	"app.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<memory.h>
+	"PCIE.h"
+	"pcie_c.h"
+	<iostream>
+
+1465072566 /home/arturo/Escritorio/Proyecto II/Proyecto final/Software/include/app.h
+
+1465062164 /home/arturo/Escritorio/Proyecto II/Proyecto final/Software/include/PCIE.h
+	"TERASIC_PCIE.h"
+
+1465062264 /home/arturo/Escritorio/Proyecto II/Proyecto final/Software/include/TERASIC_PCIE.h
+	<stdio.h>
+	<windows.h>
+
+1465062198 /home/arturo/Escritorio/Proyecto II/Proyecto final/Software/include/pcie_c.h
+	<stdio.h>
+	<string.h>
+	"PCIE.h"
+	<dlfcn.h>
+
+1465089798 source:/home/arturo/Escritorio/Proyecto II/Proyecto final/Software/src/dilatacion.cpp
+	"dilatacion.h"
+	<cv.h>
+	<highgui.h>
+	<iostream>
+	<iomanip>
+	"Matriz.h"
+	<thread>
+	"app.h"
+
+1465062088 /home/arturo/Escritorio/Proyecto II/Proyecto final/Software/include/dilatacion.h
+	<cv.h>
+	<highgui.h>
+	"Matriz.h"
+	<iostream>
+	<chrono>
+
+1465062122 /home/arturo/Escritorio/Proyecto II/Proyecto final/Software/include/Matriz.h
+	<string>
+
+1465062476 source:/home/arturo/Escritorio/Proyecto II/Proyecto final/Software/src/Matriz.cpp
+	"Matriz.h"
+	<iostream>
+

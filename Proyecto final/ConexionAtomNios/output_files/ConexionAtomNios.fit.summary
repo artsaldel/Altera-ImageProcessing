@@ -1,0 +1,20 @@
+Fitter Status : Successful - Sun May 29 16:36:50 2016
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+Revision Name : ConexionAtomNios
+Top-level Entity Name : ConexionAtomNios
+Family : Cyclone IV GX
+Device : EP4CGX150DF31C7
+Timing Models : Final
+Total logic elements : 9,063 / 149,760 ( 6 % )
+    Total combinational functions : 7,622 / 149,760 ( 5 % )
+    Dedicated logic registers : 5,553 / 149,760 ( 4 % )
+Total registers : 5553
+Total pins : 8 / 508 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 1,150,696 / 6,635,520 ( 17 % )
+Embedded Multiplier 9-bit elements : 0 / 720 ( 0 % )
+Total GXB Receiver Channel PCS : 1 / 8 ( 13 % )
+Total GXB Receiver Channel PMA : 1 / 8 ( 13 % )
+Total GXB Transmitter Channel PCS : 1 / 8 ( 13 % )
+Total GXB Transmitter Channel PMA : 1 / 8 ( 13 % )
+Total PLLs : 2 / 8 ( 25 % )

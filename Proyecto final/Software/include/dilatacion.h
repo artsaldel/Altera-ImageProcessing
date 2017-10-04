@@ -1,0 +1,64 @@
+#ifndef DILATACION_H
+#define DILATACION_H
+
+#include <cv.h>
+#include <highgui.h>
+#include "Matriz.h"
+
+#include <iostream>
+#include <chrono>
+
+using namespace std;
+using namespace std::chrono;
+
+using namespace cv;
+
+
+class Dilatacion
+{
+public:
+
+    Dilatacion();
+    void EjecutaAlgoritmo(Mat mat);
+    Matriz* Algoritmo();
+
+
+private:
+
+    void Finaliza (Matriz*);
+
+    double porcentajeAtom;
+    double porcentajeNios;
+    int filasAtom;
+    int colsAtom;
+    int filasNios;
+    int colsNios;
+
+    bool terminaFilasAtom;
+    bool terminaColumnasAtom;
+
+    bool terminaFilasNios;
+    bool terminaColumnasNios;
+
+    Matriz* MatrizInicio;
+    Matriz* MatrizTemp;
+    Matriz* MatrizResultante;
+
+    Matriz* MatrizAtomFilas;
+    Matriz* MatrizAtomColumnas;
+
+    Matriz* MatrizNiosFilas;
+    Matriz* MatrizNiosColumnas;
+
+    void DilataFilasAtom(Matriz*);
+    void DilataFilasNios(Matriz*);
+
+    void DilataColumnasAtom(Matriz*);
+    void DilataColumnasNios(Matriz*);
+
+    high_resolution_clock::time_point tiempo1;
+    high_resolution_clock::time_point tiempo2;
+};
+
+#endif // DILATACION_H
+

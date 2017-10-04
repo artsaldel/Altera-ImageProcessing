@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+volatile char *onchip_control = (char *) 0x00001200; //Como escribo un char tiene que ser tipo char
+volatile int *onchip_data = (int *) 0x00001300; //Como escribo entero tiene que ser tipo int
+volatile int *onchip_data2 = (int *) 0x00001400;
+
+int main() {
+	int pixel;
+	int pixel_mayor;
+
+	while (1) {
+		while (*onchip_control != 'B')
+			// polling the control byte
+			;
+
+		int n = *(onchip_data); // contiene el n
+//int m = *(onchip_data+1); // contiene el m
+		int i;
+		int j;
+		for (i = 4; i < n; i++) {
+			pixel_mayor = *(onchip_data + i);
+			for (j = i - 2; j <= i + 2; j++) {
+				if (pixel_mayor < (pixel = *(onchip_data + j))) {
+					pixel_mayor = *(onchip_data + j);
+
+					*(onchip_data2 + j - 2) = pixel; //pixel actual
+				}
+				else {
+					if (i == 4) {
+						*(onchip_data2 + j - 2) = pixel; //pixel actual
+
+					} else if ((i != 4) & (j == (i + 2))) {
+						*(onchip_data2 + j - 2) = pixel; //pixel actual
+					}
+				}
+			}
+			*(onchip_data2 + i - 2) = pixel_mayor; //pixel centro
+		}
+
+		*onchip_control = 'H'; // pass the control right to the host PC
+	}
+	return 0;
+}

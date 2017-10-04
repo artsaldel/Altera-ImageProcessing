@@ -1,0 +1,6 @@
+12:20:11 **** Clean-only build of configuration Nios II for project ConexionHex_bsp ****
+make clean 
+[BSP clean complete]
+
+12:20:15 Build Finished (took 4s.109ms)
+
